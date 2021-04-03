@@ -24,8 +24,8 @@ def suggest(typ):
 		# And appending to the song to the songs list if it matches
 		elif i["singer"] == typ:
 			songs.append(i["name"])
-			# checking if the time of release is what the user wants
-			# And appending the song to the songs list if it matches
+		# checking if the time of release is what the user wants
+		# And appending the song to the songs list if it matches
 		elif i["time"] == typ:
 			songs.append(i["name"])
 	
